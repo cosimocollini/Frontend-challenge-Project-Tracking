@@ -346,6 +346,11 @@ html {
   font-family: "Barlow", sans-serif;
 }
 
+a {
+  color: unset;
+  text-decoration: none;
+}
+
 .title {
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
@@ -469,6 +474,11 @@ html {
 
 .nav__list__item--separator span {
   display: none;
+}
+
+.nav__list__item:hover a {
+  color: #242941;
+  text-decoration: underline;
 }
 
 .nav__list--open {

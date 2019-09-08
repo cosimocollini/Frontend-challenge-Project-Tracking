@@ -60,6 +60,11 @@
             &--separator span {
                 display: none;
             }
+
+            &:hover a {
+                color: $dark-blue;
+                text-decoration: underline;
+            }
         }
 
         &--open {
